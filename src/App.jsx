@@ -1,4 +1,4 @@
-import  {BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./component/Navbar";
 
 import Home from "./pages/Home";
@@ -6,11 +6,9 @@ import Products from "./pages/Products";
 import Cart from "./pages/Cart";
 import Login from "./pages/Login";
 
-
 function App() {
   return (
-  
-   <BrowserRouter>
+    <>
       <Navbar />
 
       <Routes>
@@ -19,9 +17,8 @@ function App() {
         <Route path="/cart" element={<Cart />} />
         <Route path="/login" element={<Login />} />
       </Routes>
-      </BrowserRouter>
- 
-  )
+    </>
+  );
 }
 
 export default App;
