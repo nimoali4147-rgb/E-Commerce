@@ -12,11 +12,7 @@ Nova Mart is a simple React E-Commerce Store built as a React.
 - JavaScript
 - Vite
 
-## API
 
-This project uses Fake Store API:
-
-https://fakestoreapi.com/products
 
 ## Pages
 
