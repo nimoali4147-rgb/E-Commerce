@@ -24,4 +24,3 @@ https://fakestoreapi.com/products
 - Products
 - Cart
 - Login
-
